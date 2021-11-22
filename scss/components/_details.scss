@@ -1,0 +1,439 @@
+.details-Page
+{
+    margin-bottom: 7rem;
+    @media only screen and (max-width:991px){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    &-sec-1
+    {
+        margin-top: 5.6rem;
+        display: flex;
+        flex-direction: column;
+        @media only screen and (max-width:991px){
+            align-self: center;
+        }
+        &-header
+        {
+            padding: 1.5rem;
+            h4
+            {
+                @extend %h4;
+                text-align: right;
+                color: #444345;
+            }
+        }
+        &-cDetails , &-cDetails-2
+        {
+           padding:0 1.5rem 1.5rem 1.5rem;
+           display: flex;
+           flex-direction: column;
+           width: 100%;
+           h4
+           {
+               font-size: 1.125rem;
+               font-weight: 600;
+               text-align: right;
+               margin-bottom: 1.125rem ;
+               line-height: 1.75rem;
+               color: #1A0405;
+           }
+        }
+        &-cDetails
+        {
+            &>div
+            {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                &>div
+                {
+                    @extend %flex-between;
+                    margin-bottom: 1.5rem;
+                 
+                }
+                p
+                {
+                    @extend %price-font;
+                    text-align: left;
+                    color: #666666;
+                }
+                .cDetails-visaName
+                {
+                    margin-bottom: 1.5rem !important;
+                }
+            }
+        }
+        &-cDetails-2
+        {
+            margin-bottom: 2.5rem;
+            &-address
+            {
+                display: flex;
+                justify-content: flex-end;
+                p
+                {
+                        word-spacing: 1.2rem;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        color: #666666;
+                        line-height: 3rem;
+                        text-align: right;
+                        width: 90%;
+                        margin-right: 0;
+                }
+            }
+            
+        }
+       
+        &-cDetails-3
+        {
+            @extend %layout;
+            padding-right: 0px;
+            padding-left: 0px;
+            border-radius: 0px;
+            height: 658px;
+           
+            & > img
+            {
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+            }
+            .row-text
+            {
+                @extend %row-text;
+                & > h3
+                {
+                   @extend %h3;
+                   font-size: 2.18rem;
+                   width: 80%;
+                   line-height:52px;
+                   @include media("phone")
+                   {
+                       width: 90%;
+                   }
+                }
+                & > p
+                {
+                    font-weight: 500;
+                    font-size: 1.37rem;
+                    margin-bottom: 3.4rem !important;
+                    margin-top: 3.4rem ;
+                }
+                button
+                {
+                    @extend %btn-row-text;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    &-sec-2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .details-Page-sec-2-header
+        {
+            @extend %h3-cart;
+            margin-bottom: 1.5rem;
+            color: #444345;
+            margin-top: 1.5rem;
+            @include media('phone')
+            {
+                font-size: 1.2rem;
+            }
+        }
+        &-sec
+        {
+            background-color: #FCFCFC;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        &-first
+        {
+            h4
+            {
+                @extend %h4;
+                text-align: right;
+                padding: 1.5rem;
+                color:#3B3B3B;
+                @include media('phone')
+                {
+                    font-size: 1.1rem;
+                }
+            }
+            .space
+            {
+                @extend %space;
+                border-style: solid !important ;
+            }
+            &-Dinf
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                padding:1.75rem 1.5rem 1.75rem 3.6rem;
+                @media only screen and (max-width:550px)
+                {
+                    padding-left: 1.5rem;
+                }
+                width: 100%;
+                &-sec
+                {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                    width: 100%;
+                    margin-bottom: 1.125rem;
+                    &:last-of-type
+                    {
+                        margin-bottom: 0px;
+                    }
+                    span
+                    {
+                        @extend %h4;
+                        color: #444345;
+                        line-height: 31px;
+                        @include media('phone')
+                        {
+                            font-size: 1rem;
+                        }
+                    }
+                    .dataTimeToday
+                    {
+                        direction: rtl;
+                    }
+                }
+            }
+        }
+        .space
+        {
+            @extend %space;
+            border-style: dotted;
+        }
+        &-second
+        {
+            align-items: flex-end;
+            padding:1.68rem 1.5rem 1.85rem;
+            &>div
+            {
+                width: 40%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                @media (min-width:550px) and (max-width:850px)
+                {
+                    width: 60%;
+                }
+                @media only screen and (max-width:550px)
+                {
+                    width: 100%;
+                }
+                .price-card
+                {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row-reverse;
+                    margin-bottom: 1.25rem;
+                    span
+                    {
+                        font-size: 1rem;
+                        color: #000;
+                        font-weight: 600;
+                        line-height: 25px;
+                        @include media('phone')
+                        {
+                            font-size: .9rem;
+                        }
+                    }
+                    .price
+                    {
+                        word-spacing: 9px;
+                        line-height: 30px;
+                    }
+                    &:last-of-type
+                    {
+                        margin-bottom: 0px;
+                        span
+                        {
+                            color: var(--primary-color);
+                        }
+                    }
+                }
+            }
+        }
+        .alert-sec
+        {
+            margin-top: 1.5rem ;
+            margin-bottom: 3rem;
+        }
+        &-third
+        {
+            display: flex;
+            align-items: flex-end;
+            width: 100%;
+            background-color: #FCFCFC;
+            padding: 1.5rem;
+            h4
+            {
+                @extend %h4;
+                color: #3B3B3B;
+                margin: 1.5rem;
+                margin-right: 0;
+                margin-top: 0;
+                text-align: right;
+                @include media('phone')
+                {
+                    font-size: 1.1rem;
+                }
+            }
+            .sec-cart-product
+            {
+                @extend %product-cart;
+                padding:1.125rem 1.125rem 1.125rem 1.06rem;
+                border-radius: 8px;
+                &-img-text
+                {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    justify-content: center;
+                    .sec-cart-product-img
+                    {
+                        width: 134px;
+                        height: 116px;
+                        border-radius: 15px 15px 0 0 ;
+                        background-color: #fff;
+                        border:1px solid #E2E2E2;
+                        overflow: hidden;
+                        img
+                        {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .sec-cart-product-text
+                    {
+                        display: flex;
+                        flex-direction: column;
+                        margin-right: 1.3rem;
+                        align-items: flex-end;
+                        width: 280px;
+                        @media only screen and(max-width:776px){
+                            width: auto;  
+                        }
+                        h3
+                        {
+                            font-size: 1.125rem;
+                            font-weight: 600;
+                            @include media('phone')
+                            {
+                                font-size: 1rem;
+                            }
+                        }
+                        p
+                        {
+                            font-size: .87rem;
+                            font-weight: 500;
+                            line-height: 1.3rem;
+                            margin: .9rem 0 !important;
+                            color: #7E7E7E;
+                            @include media('phone')
+                            {
+                                font-size: .7rem;
+                            }
+                        }
+                        span
+                        {
+                            font-size: .875rem;
+                            font-weight: 600;
+                            color: var(--primary-color);
+                            @include media('phone')
+                            {
+                                font-size: .7rem;
+                            }
+                        }
+                    }
+                }
+                .sec-cart-product-sec2
+                {
+                    @media (min-width:600px) and (max-width:776px) {
+                       width: 48%;
+                    }
+                    @media (min-width:490px) and (max-width:600px) {
+                    width: 40%;
+                    }
+                    @media (min-width:427px) and (max-width:490px) {
+                        width: 38%;
+                    }
+                    @media (min-width:381px) and (max-width:427px) {
+                        width: 37%;
+                    }
+                    @media (min-width:350px) and (max-width:381px) {
+                        width: 35%;
+                    }
+                    @media (min-width:300px) and (max-width:350px) {
+                        width: 33%;
+                    }
+                   .price-product
+                   {
+                       line-height: 1.875rem;
+                       font-size: 1.3rem;
+                       font-weight: 600;
+                       width:100%;
+                       @include media('phone')
+                       {
+                           font-size: 1.1rem;
+                       }
+                   }
+                }
+            }
+        }
+
+        button
+        {
+            @extend %btn-cart;
+        }
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// pag3 ,4 in details
+.details-Page-sec-2-first-header-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding-left: 3.6rem;
+    @media only screen and(max-width:550px) {
+        padding-left: 1.5rem; 
+    }
+    &>div
+    {
+        span
+        {
+            color:#F60008;
+            font-weight: 600;
+            font-size: 1.125rem;
+            margin-right: .75rem ;
+        }
+    }
+}

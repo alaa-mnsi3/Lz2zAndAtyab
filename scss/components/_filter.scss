@@ -1,0 +1,217 @@
+.filter
+{
+    cursor: pointer;
+    @include transtion;
+    color: #707070;
+    &:hover
+    {
+        color: var(--primary-color);
+    }
+    &.active
+    {
+        color: var(--primary-color) ;
+    }
+}
+
+.divide
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    @include media('phone')
+    {
+        padding-left: 0 !important;
+    }
+    .types-prod
+    {
+        position: relative;
+        margin-bottom: 2.5rem;
+        h5
+        {
+            font-size: 1.125rem;
+            font-weight: bold;
+            margin-bottom: 1.9rem;
+            @include media('phone')
+            {
+                font-size: .875rem;
+            }
+        }
+        &-num
+        {
+            position:absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 100%;
+            opacity: 0;
+            transform: scale(0.2) rotate(180deg);
+            @include transtion;
+            &.active
+            {
+                position: relative;
+                opacity: 1;
+                transform: scale(1) rotate(0deg);
+            }
+            & > div
+            {
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 1.25rem;
+                color: #707070;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                @include media('phone')
+                {
+                    // display: flex;
+                    // justify-content: flex-start;
+                    // align-items: flex-end;
+                    // flex-direction: column;
+                    font-size: .75rem;
+                }
+                &.active
+                {
+                    color: var(--primary-color) ;
+                }
+                &:last-of-type
+                {
+                    margin-bottom: 0;
+                }
+                input[type='checkbox']
+                {
+                    margin-left: 15px;
+                    margin-right: 10px;
+                    // @include media('phone')
+                    // {
+                    //     margin-left: 5px;
+                    //     margin-right: 1px;
+                    // }
+                }
+                input[type='checkbox']::before
+                {
+                    width: 20px !important; 
+                    height: 20px !important;
+                    border-radius: 4px !important;
+                    top: 0px;
+                    left: -7px;
+                    justify-content: center;
+                    @include media('phone')
+                    {
+                        width: 18px !important;
+                        height: 18px !important;
+                    }
+                }
+            }
+        }
+    }
+    & > div:first-of-type
+    {
+        h5
+        {
+            font-size: 1.125rem;
+            font-weight: bold;
+            margin-bottom: 1.9rem;
+            @include media('phone')
+            {
+                font-size: .875rem;
+                margin-top: .2rem;
+            }
+        }
+        ul
+        {
+            color: #707070;
+            li
+            {
+                font-size: 1rem;
+                font-weight: 600;
+                margin-bottom: 1.25rem;
+                    @include media('phone')
+                {
+                    font-size: 12px;
+                }
+            }
+            &.active
+            {
+                color: var(--primary-color);
+            }
+        }
+    } 
+}
+
+
+.sec-col-4-1
+{
+    h5
+    {
+        font-size: 1.5625rem;
+        font-weight: bold;
+        margin-bottom: 1.9rem;
+        text-align: right;
+        @include media('phone')
+        {
+            font-size: 1.125rem;
+            margin-right: .3rem;
+        }
+    }
+}
+#products
+{
+    justify-content: space-around;
+    @include media('phone')
+    {
+        justify-content: center;
+    }
+
+    .product
+    {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 51px;
+        &:last-of-type{
+            margin-bottom: 0px;
+        }
+    }
+    .sec-card
+    {
+        &::after
+        {
+            opacity: 1;
+        }
+        .stars-card
+        {
+            opacity: 0;
+            
+        }
+        &:hover .stars-card
+        {
+            opacity: 1;
+        }
+        .sec-card-footer
+        {
+            flex-direction: row;
+        }
+        .sec-card-body-title
+        {
+            flex-direction: row;
+        }
+        
+    }
+}
+
+
+.filter-search
+{
+    margin-top: 265px;
+    @include media('tab-port')
+    {
+        margin-top:190px
+    }
+  .product
+  {
+    margin-bottom: 51px;
+    &:last-of-type{
+        margin-bottom: 0px;
+    }
+  }
+}

@@ -1,0 +1,139 @@
+.parent-slider
+{
+    height: 626px;
+    width: 100vw;
+    z-index: -1;
+    margin-top: -140px;
+    @media (min-width:1400px) {
+        height: 733px;
+    }
+    @include media('tab-port')
+    {
+        height: 525px;
+        margin-top: -75px;
+    }
+    @include media('phone')
+    {
+        height: 425px;
+        margin-top: -50px;
+    }
+    .parent-slider-indicators
+    {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        margin-bottom: 1.3rem;
+        bottom: 0px;
+        .swiper-pagination-bullet 
+        {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: white;
+            cursor: pointer;
+            margin-left: 15px;
+            z-index: 1;
+            outline: none;
+            border: none;
+            &:first-of-type
+            {
+                margin-left: 0px;
+            }
+        }
+        .swiper-pagination-bullet-active
+        {
+            bottom:10px;
+            width: 35px;
+            height: 8px;
+            border: 1px solid var(--primary-color);
+            border-radius: 4px;
+            background-color : var(--primary-color);
+         
+        }
+    }
+    &-slides
+    {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0 !important ;
+        .slider
+        {
+            width: 100%;
+            height: 100%;
+            padding: 0 !important;
+            &>img
+            {
+                width: 100vw;
+                height: 100%;
+            }
+            &-text
+            {
+                
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                top:7.7rem;
+                right: 7% ;
+                text-align: right;
+                @media (min-width:765px) and (max-width:900px)
+                {
+                    top:4.7rem;
+                }
+
+                & > span
+                {
+                    display: inline-block;
+                    font-size: 1.25rem;
+                    color: var(--primary-color);
+                    font-weight: 500;
+                    line-height: 31px;
+                    margin-bottom: 1.5rem;
+                    margin-top: 3rem;
+                }
+                & > p
+                {
+                    font-size: 1rem;
+                    font-weight: 500;
+                    margin-bottom: 1.5rem !important;
+                    line-height: 25px;
+                }
+                & > button
+                {
+                    outline: none;
+                    border: none;
+                    font-size:1rem;
+                    font-weight: 500;
+                    background-color: var(--primary-color);
+                    width: auto;
+                    color:var(--secondary-color);
+                    width: 167px;
+                    height: 55px;
+                    border-radius: 5px;
+                    margin-top: 2.9rem;
+                    line-height: 26px;
+                }
+                & > h5
+                {
+                    width: 50%;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    margin-bottom: 1.5rem ;
+                    line-height: 52px;
+                    @media (min-width:900px) and (max-width:1168px)
+                    {
+                        width: 64%;
+                    }
+                    @media (min-width:765px) and (max-width:900px)
+                    {
+                        width: 75%;
+                    }
+                }
+            }
+        }
+    }
+}

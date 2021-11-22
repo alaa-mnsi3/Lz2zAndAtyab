@@ -1,0 +1,204 @@
+.product-page-sec1
+{
+    padding: 2.68rem 1.8rem 3.5rem 2.3rem;
+    @media only screen and (max-width:767px)
+    {
+        padding-left: 1.8rem;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    &-2
+    {
+        
+        padding-left: 1.75rem;
+        @media only screen and (max-width:767px) 
+        {
+            padding-left: 0;
+        }
+        h4
+        {
+            text-align: left;
+        }
+        &-2
+        {
+            text-align: left;
+            span
+            {
+                margin-left: 2px;
+            }
+        }
+        &-3
+        {
+            .stars
+            {
+                margin-left: 0;
+                margin-right: .87rem;
+                .star
+                {
+                    margin-left: 0px;
+                    margin-right: 5px;
+                }
+            }
+        }
+        &-1
+        {
+            text-align: left;
+        }
+        &-4
+        {
+            text-align: left;
+        }
+        &-5
+        {
+            &-1
+            {
+                .increment
+                {
+                    margin-right: 1.6rem;
+                    margin-left: 0;
+                    padding-bottom: 3px;
+                }
+                .decrement
+                {
+                    margin-left: 1.6rem;
+                    margin-right: 0;
+                    padding-bottom: 3px;
+                }
+            }
+            &-2
+            {
+                .price-product
+                {
+                    margin-right: 1rem;
+                    margin-left: 0;
+                }
+            }
+        }
+        &-6
+        {
+            .toggle-way
+            {
+                margin-right: 3.25rem;
+                margin-left: 0;
+            }
+            @media only screen and (max-width:529px) {
+                margin-right: 0;
+            }
+        }
+        &-7
+        {
+            .ways-covering 
+            {
+                &>div
+                {
+                    input[type="radio"]
+                    {
+                        margin-left: 1px;
+                        margin-right: 0px;
+                    }
+                    input[type="radio"]::after
+                    {
+                        right: -22px;
+                    }
+                    input[type="radio"]:checked::after
+                    {
+                        top: -7.8px;
+                        left: 3px;
+                        @media only screen and (max-width:400px) {
+                            top:-8.2px;
+                        }
+                    }
+                    input[type="radio"]:checked::before
+                    {
+                        top: -11px;
+                        left: 0;
+                    }
+                    label
+                    {
+                        margin-left: 2.6rem;
+                        margin-right: 0px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+    &-3
+    {
+        .btn-cart
+        {
+            img
+            {
+                margin-right: 1rem;
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+
+.product-page-sec2
+{
+    &-1
+    {
+        text-align: left;
+        @media only screen and (min-width: 992px) {
+            margin-right: 8.3%;
+            margin-left: 0 !important;
+        }
+        &-2
+        {
+            span
+            {
+                margin-left: 0;
+                margin-right: 1.16rem;
+            }
+            .stars-sec2
+            {
+                .star-rating
+                {
+                    margin-left: 5.3px;
+                    margin-right: 0px;
+                }
+            }
+        }
+        &-3
+        {
+            text-align: left;
+        }
+    }
+    &-2
+    {
+        &-2
+        {
+            .star
+            {
+                margin-left: 0px;
+                margin-right: 6px;
+                &:last-of-type
+                {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+
+.product-page-sec3
+{
+    text-align: left;
+    &-2
+    {
+        &-3
+        {
+            &-1
+            {
+                margin-right: 1.6rem;
+                margin-left: 0;
+            }
+        }
+    }
+
+}
+

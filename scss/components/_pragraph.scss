@@ -1,0 +1,154 @@
+.Pragraph-page
+{
+    margin-bottom: 6.8rem;
+    h3
+    {
+        margin-top: 60px;
+        margin-bottom: 50px !important;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 24px;color: var(--primary-color);
+        font-weight: 600;
+        line-height: 2rem;
+        @include media('phone')
+        {
+            font-size: 20px;
+        }
+    }
+    .pragraph
+    {
+        text-align: right;
+        margin-bottom: 31px;   
+        h5
+        {
+            font-size: 18px; 
+            font-weight: 600;
+            color: var(--primary-color);
+            line-height: 1.8rem;
+            @include media('phone')
+            {
+                font-size: 15px;
+            }
+        }
+        p:first-of-type
+        {
+            margin-top: 26px;
+        }
+        p
+        {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 2rem;
+            color: #707070;
+            @include media('phone')
+            {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+}
+
+
+
+//whoUs
+.whoUs
+{
+    
+    .pragraph
+    {
+        p:first-of-type
+        {
+            margin-top: 0px;
+        }
+    }
+      
+    
+}
+
+
+//question
+.question
+{
+    margin-bottom: 7rem;
+}
+.ques-ans
+{
+    width: 100%;
+    position: relative;
+    .questions
+    {
+        box-shadow: 0px 4px 20px #00000008 , 0px 4px 20px #00000008 ;
+        height: 60px;
+        border-radius: 15px;
+        background-color: #FCFCFC;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        opacity: 1;
+        margin-bottom: 2.25rem;
+        padding: 0 1.125rem;
+        position: relative;
+        transform: translateY(0) scale(1) rotate(0deg);
+        @include transtion;
+        &.active
+        {
+            position: absolute;
+            transform: translateY(-100vh) scale(0) rotate(360deg);
+            opacity: 0;
+        }
+
+        &-1
+        {
+            font-size: 1.125rem;
+            line-height: 28px;
+            font-weight: 600;
+            color: #414141;
+        }
+    }
+    .answer
+    {
+        padding: 1.5rem 1.5rem 1.75rem;
+        background-color: #d47f1e4f;
+        border-radius: 15px;
+        text-align: right;
+        display: flex;
+        cursor: pointer;
+        flex-direction: column;
+        box-shadow: 0 10px 20px #00000008, 0 10px 20px #00000008;
+        position: absolute;
+        opacity: 0;
+        margin-bottom: 2.25rem;
+        transform: translateY(100vh) rotate(-360deg) scale(0);
+        @include transtion;
+        &.active
+        {
+            position: relative;
+            opacity: 1;
+            transform: translateY(0) rotate(0deg) scale(1);
+        }
+        &-qus
+        {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.125rem;
+            font-weight: bold;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .ans-pragrah
+        {
+            font-size: .9rem;
+            font-weight: 600;
+            line-height: 26px;
+            width: 95%;
+           align-self: flex-end;
+        }
+    }
+}

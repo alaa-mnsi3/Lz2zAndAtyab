@@ -1,0 +1,449 @@
+.nav
+{
+  padding-right: 12px;
+  padding-left: 12px;
+}
+nav
+{
+    @include transtion;
+    @include media("tab-port")
+    {
+      height: 0px;
+      transform: translateY(-200px);
+      opacity: 0;
+    }
+    @include media("phone")
+    {
+      height: 0px;
+      transform: translateY(-200px) scale(0);
+      opacity: 0;
+    }
+    &.active
+    {
+      padding: 1rem;
+      height: auto;
+      transform: translateY(-7px) scale(1);
+      opacity: 1;
+    }
+    ul
+    {
+      width: 100%;
+      height: 100%;
+      @include flex-center-space-around;
+      @include media("tab-port")
+      {
+        flex-direction: column;
+        background-color: var(--primary-color);
+        padding-top: 1rem;
+        border-radius: 10px 90px;
+        z-index: 1000000000;
+      }
+      @include media('phone')
+      {
+        flex-direction: column;
+        background-color: var(--primary-color);
+        padding-top: 1rem;
+        border-radius: 10px 90px;
+        z-index: 1000000000;
+      }
+
+      li:first-of-type
+      {
+        margin-left: 2rem;
+        @include media("tab-land")
+        {
+          margin-left: 0;
+        }
+        @include media("tab-port")
+        {
+          margin-left: 0;
+        }
+
+      }
+      li:nth-of-type(6)
+      {
+        margin-right: 2rem;
+      
+        @include media("tab-land")
+        {
+          margin-right: 0;
+        }
+        @include media("tab-port")
+        {
+          margin-right: 0 !important;
+          margin-bottom: 0;
+        }
+        @include media("phone")
+        {
+          margin-right: 0 !important;
+          margin-bottom: 0;
+        }
+      }
+    
+
+      li>a
+      {
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--text-color-primary);
+        display: inline-block;
+        @include transtion;
+        &:hover
+        {
+          transform: scale(.95);
+          color: var(--primary-color);
+        }
+        &.active
+        {
+          color: var(--primary-color);
+        }
+        @include media('tab-port')
+        {
+          color: #fff;
+          &:hover
+          {
+            color: #fff;
+          }
+          &.active
+          {
+            color: #fff;
+          }
+        }
+        @include media('phone')
+        {
+          color: #fff;
+          &:hover
+          {
+            color: #fff;
+          }
+          &.active
+          {
+            color: #fff;
+          }
+        }
+      }
+      .mob-toggle-link
+      {
+        cursor: pointer;
+        &>a
+        {
+          color:white;
+          @include transtion;
+          &:hover
+          {
+            color:white;
+            transform: scale(.95);
+          }
+        }
+        @include media("tab-land")
+        {
+          display: none;
+        }
+        @include media("big-desktop")
+        {
+          display: none;
+        }
+
+      }
+
+      li:last-of-type i:first-of-type
+      {
+        margin-right: .5rem;
+      }
+      
+      li:last-of-type i:last-of-type
+      {
+        margin-left: .5rem;
+      }
+
+      li.nav-item
+      {
+        @include media("phone")
+        {
+          opacity: 0;
+          transform :translateX(-100vw);
+          visibility: hidden;
+          @include transtion;
+
+        }
+        @include media("tab-port")
+        {
+          opacity: 0;
+          transform :translateX(-100vw);
+          visibility: hidden;
+          @include transtion;
+
+        }
+        &.active
+        {
+          opacity: 1;
+          visibility: visible;
+          transform: translateX(0px);
+        }
+      }
+
+      li
+      {
+        position: relative;
+
+        @include media("tab-port")
+        {
+          margin-bottom: 1rem;
+
+        }
+        @include media("phone")
+        {
+            margin-bottom: 1rem;  
+        }
+        &:nth-of-type(2)
+        {
+            
+          @include media("tab-port")
+          {
+            margin-bottom: 0;
+
+          }
+          @include media("phone")
+          {
+              margin-bottom: 0;  
+          }
+        }
+      }
+    
+    }
+    @for $i from 1 through 7
+    {
+      li.nav-item:nth-child(#{$i})
+        {
+          transition-delay: $i * 0.14s + 0.15s;
+        }
+    }
+
+}
+
+
+
+//menu ----- كل الاقسام ومعلومات عنا
+
+.menu-information-toggle
+{
+
+  &:hover i
+  {
+    color: var(--primary-color);
+  }
+  &:hover a
+  {
+    transform: scale(.95);
+    color: var(--primary-color) !important;
+  }
+  @include media('tab-port')
+  {
+    &:hover i
+    {
+      color: #fff;
+    }
+    &:hover a
+    {
+      transform: scale(.95);
+      color: #fff !important;
+    }
+  
+  }
+  i
+  {
+    margin-right: .8125rem;
+    &.active
+    {
+      color: var(--primary-color) ;
+    }
+    @include media('tab-port')
+    {
+      color: #fff;
+      &.active
+      {
+        color: #fff ;
+      }
+    }
+    @include media('phone')
+    {
+      color: #fff;
+      &.active
+      {
+        color: #fff ;
+      }
+    }
+  }
+  & > a
+  {
+    color:var(--text-color-primary);
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+    @include transtion;
+    &.active
+    {
+      color: var(--primary-color) ;
+    }
+    @include media('tab-port')
+    {
+      color: #fff !important;
+      &.active
+      {
+        color: #fff;
+      }
+    }
+    @include media('phone')
+    {
+      color: #fff !important;
+      &.active
+      {
+        color: #fff;
+      }
+    }
+  }
+
+  @include media('tab-port')
+  {
+    text-align: center;
+  }
+
+}
+.menu-information
+{
+  position: absolute;
+  width: 200px;
+  flex-direction: column !important;
+  justify-content: center;
+  height: auto;
+  padding: 1rem 1.2rem;
+  padding-left: 1rem !important;
+  z-index: 50;
+  top: 10px;
+  right: -29px;
+  margin-top: 1rem;
+  background-color: var(--secondary-color-light);
+  align-items: center;
+  opacity: 0;
+
+  transform: translateY(-100vw) scale(.2) rotate(270deg);
+  @include transtion;
+  @include media('tab-port')
+  {
+    right: 10px;
+    background-color: transparent;
+  }
+  @include media('phone')
+  {
+    right: 10px;
+    background-color: transparent;
+  }
+
+  &.active
+  {
+    opacity: 1;
+    transform: translateY(0) scale(1) rotate(0deg);
+    @include media("tab-port")
+    {
+      height: auto;
+    }
+    @include media("phone")
+    {
+      height: auto;
+    }
+    
+  }
+  &:last-of-type
+  {
+   
+    & > li:nth-last-of-type(2)
+    {
+      @include media('tab-port')
+      {
+        margin-bottom: 0 !important;
+      }
+      @include media('phone')
+      {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+  & > li:first-of-type
+  {
+    margin-left: 0 !important;
+    @include media('tab-port')
+    {
+      margin-bottom: 0 !important;
+    }
+    @include media('phone')
+    {
+      margin-bottom: 0 !important;
+    }
+  }
+  & > li:last-of-type
+  {
+    color: var(--text-color-primary);
+  }
+  & > li
+  {
+    margin-bottom: 1rem;
+    padding: 0;
+    a
+    {
+      color: var(--text-color-primary);
+      padding: .5rem;
+      display: inline-block;
+      @include transtion;
+      &:hover
+      {
+        color: var(--primary-color);
+        transform: scale(.95);
+      }
+      a.active
+      {
+        color: var(--primary-color);
+      }
+      @include media('tab-port')
+      {
+        color:var(--primary-color-light);
+        &:hover
+        {
+          color: var(--primary-color-light);
+        }
+        a.active
+        {
+          color: var(--primary-color-light);
+        }
+      }
+      @include media('phone')
+      {
+        color:var(--primary-color-light);
+        &:hover
+        {
+          color: var(--primary-color-light);
+        }
+        a.active
+        {
+          color: var(--primary-color-light);
+        }
+      }
+      
+    }
+  }
+
+  @include media("tab-port")
+  {
+    padding:0;
+    position: relative !important;
+    right: 0px;
+    height: 0;
+  }
+  @include media("phone")
+  {
+    padding:0;
+    position: relative !important;
+    right: 0px;
+    height: 0;
+  }
+}

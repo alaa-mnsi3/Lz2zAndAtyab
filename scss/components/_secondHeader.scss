@@ -1,0 +1,381 @@
+.second-tab
+{
+  height: 167px;
+  background-color: #fff;
+  border-bottom-left-radius: 52px;
+  border-bottom-right-radius: 52px;
+  border: 1px solid transparent;
+  @include boxshadow;
+  width: 100vw;
+  margin: 0px;
+  z-index: 1;
+  position: fixed;
+  top: 47px;
+  left: 0;
+  z-index: 10000000;
+
+  @include media('tab-port')
+  {
+    height: 109px;
+  }
+  @include media('phone')
+  {
+    height: 109px;
+  }
+
+}
+
+.second-header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 18px;
+    padding: 4px 0;
+    height: 70px;
+    margin-bottom: 24px;
+
+    &>ul
+    {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        &>li
+        {
+            &>a
+            {
+                font-size: 1.125rem;
+                color: var(--text-color-primary);
+                font-weight: 600;
+                cursor: pointer;
+                @include transtion;
+                &:hover
+                {
+                  color: var(--primary-color);
+                }
+                &.active
+                {
+                  color: var(--primary-color);
+                }
+                .cart
+                {
+                    position: relative;
+                    width: 29px;
+                    height: 29px;
+                    display: inline-block;
+                    margin-right: 10px;
+                    margin-bottom: 4px;
+                    @include media('tab-land')
+                    {
+                      margin-right: 2px;
+                    }
+                    span
+                    {
+
+                       content: " ";
+                       border-radius: 50%;
+                       background-color: var(--color-cart);
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       width: 18px;
+                       height: 18px;
+                       position: absolute;
+                       font-size: 10px;
+                       color:var(--secondary-color-light);
+                       bottom: -3px;
+                       right: 3px;
+                       font-family:'Open Sans', sans-serif;;
+                       font-weight: 600;
+                       padding-top: 1px;
+                    }
+
+                }
+                .login
+                {
+                  margin-right: 10px;
+                  @media (min-width:985px) and (max-width:1096px)
+                  {
+                    margin-right: 4px;
+                  }
+                  &.active
+                  {
+                    color: var(--primary-color);
+                  }
+                }
+            }
+        }
+    }
+    &-left
+    {
+      display: flex;
+      justify-content: space-between;
+      &>li:first-of-type
+      {
+        display: flex;
+        align-items: flex-end;
+        @include media('tab-land')
+        {
+          margin-right: 0px;
+        }
+        .price-cart
+        {
+          font-size: 1.25rem;
+          color: var(--text-color-primary);
+          font-weight: 600;
+          align-self: flex-end;
+          line-height: 31px;
+          margin-top: 4px;
+          display: inline-block;
+        }
+        span
+        {
+          font-size: 1.2rem;
+          font-weight: 600;
+          margin-top: 0px;
+        }
+      }
+      &>li:last-of-type > a
+      {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &-right
+    {
+      &>li:first-of-type
+      {
+        display:flex ;
+        // search and select any of qsem
+        & > div
+        {
+          display:flex ;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          background-color: var(--secondary-color);
+          height: auto;
+          padding: .5rem;
+          height: 55px;
+          font-size: 14px;
+          border:1px solid var(--secondary-color);
+          font-weight: 600;
+      
+          border-radius: 8px;
+          .search-placeholder
+          {
+            color: var(--text-secondary-color-dark);
+            display: inline-block;
+            margin-right: .3rem;
+            font-weight: 600;
+            text-align: right;
+            width: 700px !important;
+            outline: none;
+            border: none;
+            background-color: transparent;
+          }
+          .space
+          {
+            display: inline-block;
+            width: 0px;
+            border: none;
+            border-right: 1px solid var(--text-secondary-color-light);
+            height: 32px;
+            justify-self: flex-end
+          }
+          .select-qesm
+          {
+            width: 100%;
+            margin-right: 3px;
+            font-weight: 600;
+          }
+        }
+
+        .search
+        {
+          width: 437px;
+          border-top-right-radius: 0px;
+          border-bottom-right-radius: 0px;
+          @media only screen and (min-width:1400px) {
+            width: 511px;
+          }
+          @include media('tab-land')
+          {
+            width: 417px;
+          }
+          @include media('tab-port')
+          {
+            width: 280px;
+          }
+
+        }
+        .select
+        {
+          width: 110px;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+          position: relative;
+          select
+          {
+            color: #3B3B3B ;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            text-align: center;
+            padding: 1rem 0rem;
+            width: 100%;
+            font-size: 14px;
+            font-weight: 600;
+            position: relative;
+          
+              // ...existing styles
+              align-items: center;
+          
+              
+              /* Style items (options): */
+              option {
+                color: #3B3B3B;
+                font-size: 14px;
+                font-weight: 600;
+                position: absolute;
+                background-color: var(--secondary-color);
+                top: 100%;
+                left: 0;
+                right: 0;
+                z-index: 99;
+                border: none;
+                outline: none;
+              }
+          }
+        }
+      }
+      &>li:last-of-type
+      {
+        margin-right: 0;
+        .brand
+        {
+          width:99px;
+          height: 70px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 52px;
+          @include media('tab-land')
+          {
+            margin-left: 50px;
+          }
+          @include media('tab-port')
+          {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+   @include media("tab-port")
+   {
+     display: flex;
+     justify-content: space-around;
+   }
+
+   @include media("phone")
+   {
+     display: flex;
+     justify-content: space-between;
+   }
+}
+
+
+
+//mob
+%dimension-toggle
+{
+  width: 20px;
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.second-header .mob
+{
+  
+  cursor: pointer;
+  span{
+    @extend %dimension-toggle;
+    position: relative;
+    &::after
+    {
+      content:"";
+      @extend %dimension-toggle;
+      width: 30px;
+      position: absolute;
+      top: -5px;
+      left: 0px;
+    }
+    &::before
+    {
+      content:"";
+      @extend %dimension-toggle;
+      width: 30px;
+      position: absolute;
+      top: 5px;
+      left: 0px;
+
+    }
+
+  }
+}
+.second-header-left
+{
+  @include media("tab-port")
+  {
+    display: none !important;
+  }
+  @include media("phone")
+  {
+    display: none !important;
+  }
+}
+.second-header-right li:first-of-type
+{
+  @include media("phone")
+  {
+    display: none;
+  }
+}
+.mob
+{
+  @include media("tab-land")
+  {
+    display: none !important;
+  }
+  @include media("big-desktop")
+  {
+    display: none !important;
+  }
+}
+
+.login-sec-cart-second
+{
+  width: 20%;
+  justify-content: space-between;
+  @media (min-width:985px) and (max-width:1096px)
+  {
+    width: 22%;
+  }
+  @media only screen and (max-width:985px) {
+     width: 21%;
+  }
+}
+
+// دى للايقونات ال فى ال header التانى
+.icon-inf
+{
+  display: flex;
+  margin-right: 10px;
+  @include media('tab-land')
+  {
+    margin-right: 7px;
+  }
+}

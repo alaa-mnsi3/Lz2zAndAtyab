@@ -1,0 +1,607 @@
+
+ف صفحه filter page 
+دى لو هيتم مسح filter.js 
+هيتم وضع هذه المنتجات بعد 
+ <div class="row" id="products">
+دى
+              
+            <!-- دى المنتجات لو هيتم مسح filter.js انما 
+            لو هيتم المسح دى المنتجات  -->
+
+              <!-- المنتج الاول -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+              
+               <!-- المنتج التانى -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+               <!-- المنتج التالت -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+               <!-- المنتج الرابع -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+               <!-- المنتج الخامس -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+               <!-- المنتج السادس -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+               <!-- المنتج السابع -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+               <!-- المنتج التامن -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+               <!-- المنتج التاسع -->
+               <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+              <!-- المنتج العاشر -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+               <!-- المنتج ال11 -->
+              <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+
+               <!-- المنتج الاخير -->
+               <div class="sec-col-4-1-card col-xl-4 col-md-6 col-sm-10 col-xs-9 product wow slideInLeft"  data-wow-duration="1s"  data-productname = '${productName}' data-type='${type}'>
+                <div class="card sec-card">
+                  <div class="sec-card-img">
+                    <img src="../images/slider4.png" class="card-img-top" alt="...">
+                  </div>
+          
+                  <!-- card-body consists of titles -->
+                  <div class="card-body sec-card-body">
+                    <span class="sec-card-body-top">لحوم</span>
+            
+                    <!-- //غنوان الكارد -->
+                    <div class="card-title sec-card-body-title">
+                      <div class="stars-card">
+                        <span>4.5</span>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <a href="productPage.html" class="name-product">
+                           فريش 1 كيلو
+                      </a>
+                    </div>
+            
+                    <!-- price of card -->
+                    <p class="card-text card-price">
+                      ريال / كيلو
+                      <span>150.00</span> 
+                    </p>
+                    <p class="card-text card-price">100.00 ريال / كيلو</p>
+            
+                  </div>
+                  <!-- end body card -->
+          
+                  <!-- footer of card -->
+                  <div class="sec-card-footer">
+            
+                    <a href="errorPage2.html" class="card-bag">
+                      <img src="../images/bag-card.svg"></i>
+                    </a>
+            
+                    <div class="card-increment-decrement">
+                      <span class="increment">+</span>
+                      <span class="number">0</span>
+                      <span class="decrement">-</span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <!-- نهايته -->
+
+  

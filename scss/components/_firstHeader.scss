@@ -1,0 +1,95 @@
+.first-tab
+{
+    background-color: var(--primary-color) !important;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    z-index: 10000000;
+}
+.first-header
+{
+    height:47px;
+    // width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--secondary-color-light);
+
+    &-left-items
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: var(--secondary-color);
+        margin-bottom: 0px !important;
+        font-family: 'DIN Next LT Arabic';
+        li.first-header-left-item
+        {
+            
+            margin-left: 3rem;
+            display: flex;
+            align-items: center;
+            a
+            {
+                color: var(--secondary-color-light);
+                font-size: 13px;
+                font-weight: 300;
+                margin-right: 12px;
+                @include media('tab-port')
+                {
+                    display: inline-block;
+                    margin-bottom: 3px;
+                }
+            }
+            &:first-of-type
+            {
+                margin-left: 0;
+                a
+                {
+                    &:last-of-type
+                    {
+                        margin-right: 0;
+                        margin-left: 12px;
+                    }
+                }
+            }
+
+        }
+    }
+    h2
+    {
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 0;
+    }
+    i
+    {
+        font-size: .8rem; 
+        @include media("phone")
+        {
+        display: none;
+        }
+    }
+    @include media("phone")
+    {
+        width: 100%;
+    }
+
+
+}
+//mob
+.first-header-left-items .first-header-left-item.translate
+{
+
+    @include media("tap-port")
+    {
+        margin-left: 0 !important;
+    }
+    @include media("phone")
+    {
+        margin-left: 0 !important;
+    }
+}

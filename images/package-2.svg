@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="21.104" viewBox="0 0 19 21.104">
+  <g id="package" transform="translate(0.5 0.526)">
+    <line id="Line_197" data-name="Line 197" x1="9" y1="5.19" transform="translate(4.5 2.208)" fill="none" stroke="#d4801e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_179" data-name="Path 179" d="M21,16V8a2,2,0,0,0-1-1.73l-7-4a2,2,0,0,0-2,0l-7,4A2,2,0,0,0,3,8v8a2,2,0,0,0,1,1.73l7,4a2,2,0,0,0,2,0l7-4A2,2,0,0,0,21,16Z" transform="translate(-3 -2.002)" fill="none" stroke="#d4801e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_180" data-name="Path 180" d="M3.27,6.96,12,12.01l8.73-5.05" transform="translate(-3 -2.002)" fill="none" stroke="#d4801e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <line id="Line_198" data-name="Line 198" y1="10.08" transform="translate(9 9.998)" fill="none" stroke="#d4801e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

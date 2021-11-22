@@ -1,0 +1,312 @@
+.cart-Page
+{
+    &-sec-1
+    {
+        &:first-of-type
+        {
+            p
+            {
+                text-align: left;
+                .cart-quantity
+                {
+                    margin-right: 4px !important;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    h4
+    {
+        text-align: left;
+    }
+    .price
+    {
+        direction: ltr;
+        word-spacing: 4px;
+    }
+    .all-prices-sec
+    {
+        text-align: left;
+        direction: ltr;
+        word-spacing: 4px;
+    }
+    span
+    {
+        text-align: left;
+    }
+    
+    .cart-Page-sec-2
+    {
+        padding-left: 0;
+        padding-right: 29px;
+        @media only screen and (max-width:991px){
+            padding-right: 0px;
+        }
+        
+        .sec-cart
+        {
+            h4
+            {
+                text-align: left;
+            }
+            &-product
+            {
+                text-align: left;
+                &-img-text
+                {
+                    .sec-cart-product-text
+                    {
+                        margin-left: 1.3rem;
+                        margin-right: 0;
+                        h3
+                        {
+                            text-align: left;
+                        }
+                        p
+                        {
+                            text-align: left;
+                            width: 90%;
+                            @media only screen and (max-width:433px) {
+                                width: 100%;
+                            }
+                        }
+                        .sec-cart-product-text-price
+                        {
+                            text-align: left;
+                            .price-product
+                            {
+                                margin-right: 1rem;
+                                margin-left: 0px;
+                            }
+                        }
+                    }
+                }
+                &-sec2
+                {
+                    .increment
+                    {
+                        margin-right: 1.6rem;
+                        margin-left: 0;
+                        padding-bottom: 3px;
+                    }
+                    .decrement
+                    {
+                        margin-left: 1.6rem;
+                        margin-right: 0;
+                        padding-bottom: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+//cartPaying2
+.breadcrumb-item
+{
+    &:nth-of-type(2)
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+        &::before
+        {
+            padding-left: 20px;
+        }
+    }
+}
+
+
+.cart-Page-2
+{
+    &-sec-1
+    {
+        @include media('big-desktop')
+        {
+          margin-left: 15px;
+          margin-right: 0px;
+        }
+        &-sections
+        {
+            .header
+            {
+                h4
+                {
+                    text-align: left;
+                }
+                p
+                {
+                    text-align: left;
+                    .cart-quantity
+                    {
+                        margin-right: 4px;
+                        margin-left: 0px;
+                    }
+                }
+            }
+            .sec-cart-product
+            {
+                .sec-cart-product-img-text
+                {
+                    .sec-cart-product-img
+                    {
+                        margin-right: 13px;
+                        margin-left: 0;
+                    }
+                    .sec-cart-product-text
+                    {
+                        h3
+                        {
+                            text-align: left;
+                        }
+                        .sec-cart-product-text-price
+                        {
+                            text-align: left;
+                        }
+                        .last-text
+                        {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+            .price-card
+            {
+                text-align: left;
+            }
+        }
+        .help
+        {
+            text-align: left;
+        }
+    }
+    &-sec-2
+    {
+        .header-cart
+        {
+            text-align: left;
+        }
+        form[name="addAddress"]
+        {
+            direction: ltr;
+            h4
+            {
+                text-align: left;
+            }
+            .cart-Page-2-sec-2-form
+            {
+                
+               label
+               {
+                   text-align: left;
+               }
+               &-input
+               {
+                    img
+                    {
+                        left: 15px !important;
+                    }
+                    input
+                    {
+                        padding: 1.125rem 1.125rem 1.125rem 2.5rem;
+                        text-align: left;
+                    }
+                }
+                textarea
+                {
+                    padding: 1.125rem;
+                    text-align: left;
+                }
+            }
+            .sec-flex
+            {
+                @media only screen and (min-width:600px) {
+                    flex-direction: row;
+                }
+                &>div
+                {
+                    select
+                    {
+                        direction: ltr;
+                        padding: .55rem .5rem ;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//cartPaying3
+.alert-sec
+{
+    img
+    {
+        margin-right: .87rem;
+        margin-left: 0;
+    }
+}
+
+
+.inf-client
+{
+    &-header
+    {
+        &-right
+        {
+            img
+            {
+                margin-right:.75rem ;
+                margin-left: 0;
+            }
+        }
+    }
+    &-inf
+    {
+        text-align: left;
+    }
+}
+
+
+
+.paying-sec
+{
+    h5
+    {
+        text-align: left;
+    }
+    form[name="paying"]
+    {
+        .chooseWay
+        {
+            label
+            {
+                text-align: left;
+                margin-left: 32px;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+
+
+//cartPaying
+form[name="visa"]
+{
+    text-align: left;
+    &>div
+    {
+        .number-visa
+        {
+            img
+            {
+                left: 15px;
+            }
+        }
+    }
+}
+
+
+

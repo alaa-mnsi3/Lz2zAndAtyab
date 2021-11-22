@@ -1,0 +1,12 @@
+.breadcrumb-error
+{
+    --bs-breadcrumb-divider: '>';
+    direction: ltr;
+    flex-direction: row-reverse;
+    li:first-of-type
+    {
+        margin-right: 0px;
+    }
+}
+
+

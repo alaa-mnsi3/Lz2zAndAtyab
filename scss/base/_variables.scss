@@ -1,0 +1,119 @@
+html
+{
+
+    scroll-behavior: smooth;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+*
+{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+}
+
+body
+{
+    direction:ltr;
+    font-family: 'Bahij TheSansArabic' ,'Almarai','sans-serif';
+}
+.main-page 
+{
+    margin-top: 211px;
+    @include media('tab-port') {
+        margin-top: 155px;
+    }
+}
+
+
+
+:root
+{
+    --hue : 32;
+    --sut : 75%;
+    --primary-color :hsl(32, 75%, 47%);
+    --primary-color-dark : hsl(19,100%,45%);
+    --primary-color-light : hsl(43, 99%, 63%);
+
+
+    --secondary-color: #F6F6F6 ;
+    --secondary-color-light:#fff;
+    --secondary-color-dark:#E6EAED;
+    
+
+    --text-color-primary:rgba(0, 0, 0, 0.911);
+    --text-secondary-color-dark:#808080;
+    --text-secondary-color-light:#707070;
+
+    // الوان اضافيه
+    --first-adding-color :#FFB12C;
+    --second-adding-color:#FFDDB9;
+    --third-adding-color:#6072E5;
+    --fourth-adding-color:#AFDF6D;
+    --color-cart:   #CF5A24;
+
+
+    --body-font : .8rem;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+i
+{
+    cursor: pointer;
+}
+ul , h1 ,h2 ,h3 ,p
+{
+    margin-bottom: 0 !important;
+}
+ul
+{
+    padding-left: 0 !important;
+}
+.row-100vw
+{
+    margin-right:0 !important;
+    margin-left: 0 !important;
+}
+
+
+
+//دى ع alert الموجوده ف التحقق ع الفورم
+.alert-warning
+{
+    text-align: center;
+}
+.alert-dismissible 
+{
+  padding-right: 0px;
+}
+.alert 
+{
+    padding-right: 1rem;
+}
+// end 
+
+
+
+
+.main-page
+{
+    z-index: 0;
+}
+
+::selection
+{
+    background-color: var(--primary-color) !important;
+    color: var(--color-primary-light) !important;
+}

@@ -1,0 +1,110 @@
+المشترك ف كله
+js/main.js ----> فيها التزويد والتنقيص ف كله 
+js/nav.js
+
+//الصفح 
+index
+
+changestyleenglishindex.js ---> عند الضغط ع تغير اللغه 
+معمول ليها صفحه ف		 js 
+
+searchindex.js ---> عند الضغط ع سيرش بيخفى ال main 
+ال فيها كل الصفحه + بيظهر ع حسب البحث بقى ومعمول صفحه لل index
+بس هوا لو ف منتجات زياده هيزودها بال js
+
+//navbar
+scss/_nav.scss
+js/nav.js
+
+//footer
+scss/_footer.js
+
+
+//details1,details 
+دول بتوع السله
+
+//details2/3
+دول بتوع يتم التجهيز وتم الاستلام
+
+//error1
+دى 404
+
+//error2
+دى بتاعت لايوجد شىء ف السله اذهب للتسوق
+
+//error3
+دى بتاعت لابد من عمل تسجيل دخول عشان يقدر يضيف ف السله
+
+//details
+دى التفاصيل ال ع الطلب ال عمله
+
+//details1
+دى لو عاوز يحذف الطلب
+
+//details3
+دى بتاعت طلبات يتم التجهيز ولو عاوز يحذف الطلب
+
+//details4
+دى بتاعت طلبات تم تحضيرها
+
+
+
+
+//productPage ---> cart --> cartPaying1 --> cartPaying2 --> cartPaying3 --> cartPaying4 --> details --> details1
+
+
+//filter
+فيها كل الاقسام وهوا يختار ال عاوزه
+
+
+//condation
+الشروط والاحكام
+
+//filter.js 
+دى لصفحه الفلتر فيها السيرش + فلتره الاقسام 
+
+//cart.js
+فيها عند زياده الكميه الفلوس بتزيد 
+
+//cartpaying.js
+مثل ال cart ولكن لصفحه cartPaying
+
+//question.js
+لصفحه ال question
+
+//form
+لكل صفخ التسجيل 
+بحيث يظهر ويخفى الباسور عند الضغط ع العين
+
+//productpage.js
+دى لصفحه الproductpage
+
+
+//authentaction
+sign up 
+
+post yourName
+     yourphone
+     password
+     repassword
+     email
+
+get in sign in yourphone
+               password
+
+post in reassignPassword.html password -- بدل الباسورد ال نساها
+
+get in backpassword.html yourphone or email ---- name=username
+//عند الضغط على ارسال ف backpassword.html 
+محتاج يرسل للفون ال متسجل ف الداتا بيز رساله اعاده التسجيل
+
+
+//عند الضغط على عنصر ف الرئيسيه يتم تسجيل ف الداتا بيز
+image
+product-Name
+type-Product
+price
+quantity
+post in database
+
+يتم عمل get in page Product.html بقى

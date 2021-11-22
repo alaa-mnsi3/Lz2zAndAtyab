@@ -1,0 +1,219 @@
+// section important department
+.sec-imp-dep
+{
+    .parent-col-1-4
+    {
+        .col-1-4
+        {
+            margin : 30px 0px 0 30px;
+            &::after
+            {
+                right: 0;
+            }
+        }
+        .first-card
+        {
+            margin-left: 0px;
+            @include media("phone")
+            {
+                margin-left: 0px;
+            }
+            @include media("tap-land")
+            {
+                // width: 47% !important;
+                margin: 0;
+            }
+            @include media("tap-port")
+            {
+                // width: 47% !important;
+                margin: 0;
+            }
+            &::after
+            {
+                right: -30px;
+            }
+        }
+        .second-card
+        {
+            &::after
+            {
+                top : -24px;
+                right: -30px;
+            }
+            @include media("tab-land")
+            {
+                margin-left: 43px;
+            }
+            @include media("tab-port")
+            {
+                margin-left: 10px;
+            }
+            @include media("phone")
+            {
+                margin-left: 0px;
+            }
+        }
+        .third-card
+        {           
+            &::after
+            {
+                top: -25px;
+                right: -30px;
+            }
+            @include media("tab-land")
+            {
+                margin-left: 0;
+            }
+            @include media("tab-port")
+            {
+                margin-left: 0;
+            }
+            
+        }
+        .fourth-card
+        {
+            &::after
+            {
+                top : -23px;
+                right: -55px;
+            }
+            @include media("tab-land")
+            {
+                margin-left: 43px;
+            }
+            @include media("tab-port")
+            {
+                margin-left: 10px;
+            }
+            @include media("phone")
+            {
+                margin-left: 0px;
+            }
+        }
+    }
+}
+
+
+// code any title section in website
+.sec-title
+{
+    text-align: left;
+}
+// end section 
+
+
+// swiper-arrow
+.arrows
+{
+    direction: ltr;
+    .arrow
+    {
+        margin-right: 1rem;
+        margin-left: 0;
+        &:last-of-type
+        {
+            margin-right: 0rem;
+
+        }
+    }
+}
+
+.sec-high-price , .sec-offers , .sec-Also-watch
+{
+   
+    .sec-swiper
+    {
+        direction: ltr;
+    }
+}
+
+// code any card in website ===== as library
+.sec-card
+{
+    direction: rtl;
+    .discard-card-swiper
+    {
+        direction: ltr;
+        right: 15px;
+    }
+    &-body
+    {
+        direction: rtl;
+        text-align: left !important;
+    }
+}
+
+
+
+.sec-col-1-2
+{
+    .col-1-2
+    {
+        .row-1-2
+        {
+            margin-right: 0;
+            margin-left: 2.187rem;
+            @media (min-width : 100px) and (max-width : 768px)
+            {
+                margin-left: 0px;
+            }
+            .button-card
+            {
+                & > a
+                {
+                    margin-right: 0rem;
+                    margin-left: 1rem;
+                    &:last-of-type
+                    {
+                        margin-left: 0rem;
+                    }
+                }
+            }
+            .img
+            {   
+                & > img
+                {  
+                    &:last-of-type
+                    {
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// ===== ادخال ايميل =====
+.row-1-4
+{
+    .row-form
+    {
+        & > input
+        {
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 20px;
+            border-top-right-radius: 20px;
+            text-align: left;
+        }
+        button
+        {
+            border-bottom-left-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius:0px ;
+            border-top-right-radius: 0px;
+        }
+
+    }
+}
+
+
+
+// page offers
+.parent-sec-col-4-1
+{
+    direction: ltr;
+}
+

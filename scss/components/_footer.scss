@@ -1,0 +1,189 @@
+.footer
+{
+    padding: 3rem;
+    text-align: right;
+
+     h5
+    {
+        font-weight: 600;
+        font-size: 1.3125rem;
+        margin-bottom: 2rem;
+        @media (min-width:990px) and (max-width:1039px)
+        {
+            font-size: 1.18rem;
+        }
+    }
+    li
+    {
+        margin-bottom: 1rem;
+    }
+    &-inf
+    {
+        font-weight: 500;
+        font-size: 15px;
+        color: var(--text-color-primary);
+        &:hover
+        {
+            color: var(--primary-color);
+            font-weight: var(--font-bold);
+        }
+    }
+    .footer-join
+    {
+       display: flex;
+       flex-direction: column; 
+       & > img
+       {
+            width: 40%;
+            align-self: flex-end;
+            @include media('phone')
+            {
+                width: 62%;
+            }
+       }
+       .footor-join-call
+       {
+           margin-top: 2rem;
+           margin-bottom: 2rem;
+           display: flex;
+           justify-content: flex-end;
+           align-items: center;
+           & > div:first-of-type
+           {
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             text-align: right;
+             & > p 
+             {
+                color: var(--text-secondary-color-dark);
+                font-size: 1rem;
+                font-weight: lighter;
+             }
+             & > a
+             {
+                color: var(--text-color-primary);
+                font-size: 1.25rem;
+                font-weight:600;
+             }
+           }
+           & > div:last-of-type
+           {
+               width: 10%;
+               text-align: right;
+               margin-left: 1.5rem;
+           }
+       }
+       .footor-join-information 
+       {
+           margin-bottom: 1rem;
+           p
+           {
+                color: var(--text-secondary-color-dark);
+                font-size: .68rem;
+                font-weight: 500;
+                margin-top: 0px;
+           }
+           h5
+           {
+                font-weight: 500;
+                font-size: 20px;
+                margin-bottom: 12px;
+           }
+
+       }
+        
+
+    }
+
+    .footer-before-footer 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-end;
+        margin-top: 1rem;
+        @media only screen and (max-width:614px) {
+            flex-direction: column;
+            align-items: flex-end;
+        }
+        & > div:first-of-type
+        {
+            @media only screen and (max-width:614px)
+            {
+                width: 100%;
+                flex-direction: column;
+                margin-bottom: 1rem;
+            }
+            a
+            {
+                span:hover
+                {
+                    color: var(--primary-color);
+                }
+            }
+        }
+        & > div:last-of-type
+        {
+            @include media('phone')
+            {
+              width: 100%
+            }
+        }
+        span
+        {
+            font-family: 'Cairo';
+            font-weight: 700;
+            font-size: 14px;
+            margin-right: 1rem;
+            color: var(--text-color-primary);
+            &:last-of-type
+            {
+                @include media("tab-land")
+                {
+                    margin-right: 0;
+                }
+                @include media("phone")
+                {
+                    margin-right: 0;
+                }
+            }
+        }
+        .socail
+        {
+            margin-right: 1rem;
+            &>img
+            {
+                @include transtion;
+            }
+            &>img:hover
+            {
+                transform: scale(.8);
+            }
+        }
+    }
+
+}
+
+.footer-footer
+{
+    
+    background-color: var(--primary-color);
+    @include font-first-header;
+    padding: .5rem 0;
+    &-allrights
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-end;
+        span
+        {
+            font-size: .875rem;
+            font-weight: 400;
+        }
+    }
+
+}

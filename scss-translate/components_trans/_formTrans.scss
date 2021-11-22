@@ -1,0 +1,241 @@
+form
+{
+    input
+    {
+        text-align: left;
+        padding-left: .5rem;
+    }
+    input[type="checkbox"]
+    {
+       direction: ltr;
+    }
+    input[type="checkbox"]::before 
+    {
+        right: -2px;
+    }
+    input[type="radio"]
+    {
+        direction: ltr;
+    }
+    input[type="radio"]::after
+    {
+        
+        left: 0px;
+    }
+    input[type="radio"]:checked:after
+    {
+        
+        left: 3px;
+    }
+    input[type="radio"]:checked:before
+    {
+        
+        left: 0px;
+    }
+}
+
+
+
+
+.sec-form
+{
+    .form-sign
+    {
+        form
+        {
+            .show-hide-password
+            {
+                .show-hide-icon
+                {
+                    direction: ltr;
+                    right: 10px;
+                }
+            }
+            .rember-password
+            {
+                &>div
+                {
+                    label
+                    {
+                        margin-left: 10px;
+                        margin-right: 0px;
+                        text-align: left;
+                    }
+                }
+                a
+                {
+                    margin-left: 0px;
+                    text-align: left;
+                }
+
+            }
+            a , p , span
+            {
+                text-align: left;
+            }
+        }
+    }
+    .sec-title-from
+    {
+        h3
+        {
+            text-align: left;
+        }
+    }
+}
+
+
+// sign up
+.form-sign-Up
+{
+    form[name="signUp"]
+    {
+        & > div:first-of-type
+        {
+            &>div
+            {
+                &:nth-of-type(odd)
+                {
+                    @include media('big-desktop')
+                    {
+                        text-align: left;
+                    }
+                    @include media('tab-land')
+                    {
+                        text-align: left;
+                    }
+                }
+                &:nth-of-type(even)
+                {
+                    @include media('big-desktop')
+                    {
+                        text-align: right;
+                    }
+                    @include media('tab-land')
+                    {
+                        text-align: right;
+                    }
+                }
+                &:last-of-type
+                {
+                    i
+                    {
+                        @include media('big-desktop')
+                        {
+                            right: 58px;
+                        }
+                    }
+                }
+                &:nth-of-type(4)
+                {
+                    input
+                    {
+                        @include media('big-desktop')
+                        {
+                            margin-bottom: 28px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+//sign in
+.form-sign-in
+{
+    form
+    {
+        @include media('big-desktop')
+        {
+            margin-right: 2.73%;
+            margin-left: 0px;
+        }
+        &>div
+        {
+            text-align: left;
+        }
+    }
+}
+
+
+
+.form-reassign-password
+{
+    .form-sign-img 
+    {
+        text-align: right;
+    }
+}
+
+
+
+
+// back password
+.form-backforget
+{
+    form[name="form-backpassword"]
+    {
+        .question
+        {
+            display: flex;
+            flex-direction: row-reverse;
+            .timer-text
+            {
+                display: flex;
+                .time
+                {
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                .qusetionForReSend
+                {
+                    margin-left: 4px;
+                }
+            }
+        }
+    }
+}
+
+
+.num-back-password
+{
+    input
+    {
+        margin-right: 0px;
+        margin-left: 20px;
+        &:last-of-type
+        {
+            margin-left: 0;
+        }
+        @media only screen and (max-width:437px) {
+            margin-left: 12px;
+        }
+    }
+}
+
+
+
+//join us
+.join-Us
+{
+    .form-join
+    {
+        form
+        {
+            label
+            {
+                text-align: left;
+            }
+            textarea
+            {
+                text-align: left;
+            }
+        }
+    }
+}
+

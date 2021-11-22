@@ -1,0 +1,40 @@
+.divide
+{
+    text-align: left;
+    @include media('phone')
+    {
+        padding-right: 0 !important;
+        padding-left: 12px !important;
+    }
+    .types-prod
+    {
+        &-num
+        {
+            right: 0px;
+            & > div
+            {
+                input[type='checkbox']
+                {
+                    margin-left: 10px;
+                    margin-right: 23px;
+                    @media only screen and (max-width:400px)
+                    {
+                        margin-right: 18px ;
+                    }
+                }
+                input[type='checkbox']::before
+                {
+                    right: -7px;
+                }
+            }
+        }
+    }
+}
+
+.sec-col-4-1
+{
+    h5
+    {
+        text-align: left;
+    }
+}

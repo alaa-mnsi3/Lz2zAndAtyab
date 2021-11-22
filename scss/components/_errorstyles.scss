@@ -1,0 +1,101 @@
+.errorPage
+{
+    height: 567px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; 
+    align-items: center;
+    button
+    {
+        margin-top: 29px;
+        width: 526px;
+        background-color: var(--primary-color);
+        text-align: center;
+        border: none;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--secondary-color-light);
+        @include media('phone')
+        {
+            margin-top: 15px;
+            width: 90%;
+        }
+    }
+    .error1btn
+    {
+        font-size: 20px;
+        font-weight: 500;
+        height: 55px;
+        border-radius: 16px;
+        @include media('phone')
+        {
+            width: 90%;
+        }
+    }
+    .img-error
+    {
+        img
+        {
+            height: 226px;
+        }
+    }
+    .errorbtn
+    {
+        font-size: 1.25rem;
+        font-weight: 500;
+        height: 70px;
+        border-radius: 5px;
+        margin-bottom: 7rem;
+        @include media('phone')
+        {
+            height: 60px;
+            width: 82%;
+        }
+    }
+    p
+    {
+        margin-top: 30px;
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+        @include media('phone')
+        {
+            margin-top: 15px;
+            font-size: 19px;
+        }
+    }
+}
+.breadcrumb-error
+{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #808080;
+    li:first-of-type
+    {
+        margin-right: 20px;
+    }
+    li:last-of-type
+    {
+        padding-left: 0px;
+        &::before
+        {
+            padding-right: 20px;
+        }
+    }
+    li a
+    {
+        font-size: 16px;
+        font-weight: 500;
+        color: #808080;
+        &:hover
+        {
+            color: var(--primary-color);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="18" height="18" transform="translate(327 452)" fill="rgba(85,64,65,0.8)" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(-327 -452)" clip-path="url(#clip-path)">
+    <g id="phone-line_11_" data-name="phone-line (11)" transform="translate(327 452)">
+      <path id="Path_463" data-name="Path 463" d="M0,0H18V18H0Z" fill="none"/>
+      <path id="Path_464" data-name="Path 464" d="M7.024,8.012a7.917,7.917,0,0,0,2.964,2.964l.663-.928a.75.75,0,0,1,.97-.222,8.567,8.567,0,0,0,3.437,1.023.75.75,0,0,1,.691.748v3.346a.75.75,0,0,1-.674.746A11.632,11.632,0,0,1,2.312,2.924a.75.75,0,0,1,.746-.674H6.4a.75.75,0,0,1,.748.691A8.566,8.566,0,0,0,8.175,6.378a.75.75,0,0,1-.222.97l-.929.663ZM5.133,7.519,6.558,6.5A10.058,10.058,0,0,1,5.735,3.75H3.758c0,.124-.007.25-.007.375A10.124,10.124,0,0,0,13.875,14.25c.125,0,.25,0,.375-.007V12.265a10.058,10.058,0,0,1-2.751-.823l-1.018,1.425A9.331,9.331,0,0,1,9.29,12.3l-.043-.025A9.417,9.417,0,0,1,5.72,8.753L5.7,8.71a9.331,9.331,0,0,1-.562-1.191Z" fill="rgba(85,64,65,0.8)"/>
+    </g>
+  </g>
+</svg>

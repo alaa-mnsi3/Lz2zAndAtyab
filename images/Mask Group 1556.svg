@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="26" viewBox="0 0 28 26">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8667" data-name="Rectangle 8667" width="28" height="26" rx="5" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_1556" data-name="Mask Group 1556" clip-path="url(#clip-path)">
+    <path id="shopping-cart" d="M24.263,9.329H19.007l-2.949-6.98a.733.733,0,0,0-.977-.4.778.778,0,0,0-.383,1.01l2.689,6.366H7.95l2.689-6.366a.778.778,0,0,0-.383-1.01.733.733,0,0,0-.977.4L6.33,9.329H1.074A1.081,1.081,0,0,0,.026,10.65L2.794,23.115a1.076,1.076,0,0,0,1.047.847H21.5a1.076,1.076,0,0,0,1.047-.847L25.311,10.65A1.081,1.081,0,0,0,24.263,9.329ZM6.47,11.683a.719.719,0,0,1-.3-.064.778.778,0,0,1-.383-1.01l.558-1.32h1.62l-.817,1.934A.742.742,0,0,1,6.47,11.683Zm2.487,8.186a.743.743,0,1,1-1.485,0V14.241a.743.743,0,1,1,1.485,0Zm4.454,0a.743.743,0,1,1-1.485,0V14.241a.743.743,0,1,1,1.485,0Zm4.454,0a.743.743,0,1,1-1.485,0V14.241a.743.743,0,1,1,1.485,0Zm1.3-8.25a.719.719,0,0,1-.3.064.742.742,0,0,1-.681-.461l-.817-1.934h1.62l.558,1.32A.778.778,0,0,1,19.164,11.619Z" transform="translate(1.753 0.075)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

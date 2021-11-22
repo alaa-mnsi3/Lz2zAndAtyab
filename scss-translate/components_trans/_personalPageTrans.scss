@@ -1,0 +1,144 @@
+%h3-X
+{
+    text-align: left;
+}
+
+.personal-Page
+{
+    &-sec2
+    {
+        & > div , ul
+        {
+            text-align: left;
+        }
+        ul.nav-items
+        {
+            padding-left: 1.8rem !important;
+            li.nav-item
+            {
+                text-align: left;
+                img
+                {
+                    margin-right: 1.2rem;
+                    margin-left: 0px;
+                }
+            }
+        }
+        & > div:first-of-type , div.help
+        {
+            h5 , p
+            {
+                text-align: left;
+            }
+        }
+        &>:last-of-type
+        {
+            &>div
+            {
+                &:first-of-type
+                {
+                    margin-right: 3px;
+                    margin-left: 0px;
+                }
+            }
+        }
+
+    }
+    &-sec1
+    {
+        form
+        {
+            h3
+            {
+                text-align: left;
+            }
+            label
+            {
+                text-align: left;
+            }
+        }
+    }
+}
+
+
+
+//notification-page
+.notification-page-sec1
+{
+    h3
+    {
+        text-align: left;
+    }
+    .notification
+    {
+        &-img
+        {
+            margin-right: 9px;
+            margin-left: 0px;
+        }
+        &-text
+        {
+            text-align: left;
+            direction: ltr;
+            p:first-of-type
+            {
+                span:first-of-type
+                {
+                    margin-right: 18px;
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+//talabat-page
+
+.talabat-page-sec1
+{
+    .talabat-section
+    {
+        &-1
+        {
+            .title
+            {
+                margin-right: 0px;
+                margin-left: 21.8px;
+                @include media('phone') {
+                    margin-left: 11px;
+                }
+                &-header
+                {
+                    h4
+                    {
+                        text-align: left;
+                    }
+                    .tiltle-header-left
+                    {
+                        span
+                        {
+                            text-align: left;
+                            margin: 0 0 0 0.7rem !important;
+                        }
+                    }
+                }
+                p
+                {
+                    text-align: left;
+                }
+                span
+                {
+                    text-align: left;
+                }
+                .price
+                {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

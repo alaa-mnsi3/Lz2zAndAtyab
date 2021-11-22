@@ -1,0 +1,193 @@
+.details-Page
+{
+    &-sec-1
+    {
+        &-header
+        {
+            h4
+            {
+                text-align: left;
+            }
+        }
+        &-cDetails , &-cDetails-2
+        {
+            h4
+            {
+                text-align: left;
+            }
+        }
+        &-cDetails
+        {
+            &>div
+            {
+                p
+                {
+                    text-align: right;
+                    direction: ltr;
+                }
+            }
+        }
+        &-cDetails-2
+        {
+            &-address
+            {
+                p
+                {
+                    text-align: left;
+                }
+            }
+        }
+        &-cDetails-3
+        {
+            padding-right: 0px;
+         
+        }
+    }
+    &-sec-2
+    {
+        .details-Page-sec-2-header
+        {
+            text-align: left;
+        }
+        &-first
+        {
+            h4
+            {
+                text-align: left;
+            }
+            &-Dinf
+            {
+                padding:1.75rem 3.6rem 1.75rem 1.5rem;
+                @media only screen and (max-width:550px)
+                {
+                    padding-right: 1.5rem;
+                }
+                &-sec
+                {
+                    span
+                    {
+                        text-align: left;
+                    }
+                    .dataTimeToday
+                    {
+                        direction: ltr;
+                    }
+                }
+            }
+        }
+        &-second
+        {
+            &>div
+            {
+                .price-card
+                {
+                    .price
+                    {
+                        direction: ltr;
+                    }
+                }
+            }
+        }
+        &-third
+        {
+            h4
+            {
+                text-align: left;
+                margin-right: 1.5rem;
+                margin-left: 0;
+            }
+            .sec-cart-product
+            {
+                padding:1.125rem 1.06rem 1.125rem 1.125rem;
+                @media (min-width: 383px) and (max-width: 777px)
+                {
+                    flex-direction: row-reverse;
+                }
+                &-img-text
+                {
+                    .sec-cart-product-text
+                    {
+                        margin-right: 0;
+                        margin-left: 1.3rem;
+                        text-align: left;
+                    }
+                    p
+                    {
+                        @media (min-width: 467px) and (max-width: 777px)
+                        {
+                            width: 100%;
+                        }
+                        @media (min-width: 381px) and (max-width: 467px)
+                        {
+                            width: 88%;
+                        }
+                    }
+                }
+                .sec-cart-product-sec2
+                {
+                    @media (min-width: 383px) and (max-width: 777px)
+                    {
+                        width: 50%;
+                    }
+                    @media (min-width: 371px) and (max-width: 383px)
+                    {
+                        width: 22%;
+                        margin-left: -38px;
+                    }
+                    @media (min-width: 361px) and (max-width: 371px)
+                    {
+                        width: 22%;
+                        margin-left:-30px;
+                    }
+                    @media (min-width: 351px) and (max-width: 361px)
+                    {
+                        width:25%;
+                        margin-left:-31px;
+                    }
+                    @media (min-width:341px) and (max-width:351px) {
+                        width: 25%;
+                        margin-left:-27px;
+                    }
+                    @media (min-width:330px) and (max-width:341px) {
+                        width: 25%;
+                        margin-left:-16px;
+                    }
+                    @media (min-width:300px) and (max-width:330px) {
+                        width: 27%;
+                        margin-left: -13px;
+                    }
+                    span
+                    {
+                        @media only screen and (max-width: 445px)
+                        {
+                            font-size: .9rem;
+                        }                       
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+// pag3 ,4 in details
+.details-Page-sec-2-first-header-2
+{
+    padding-left: 0rem;
+    padding-right: 3.6rem;
+    @media only screen and(max-width:550px) {
+        padding-right: 1.5rem; 
+    }
+    &>div
+    {
+        span
+        {
+            margin-left: .75rem ;
+            margin-right: 0 ;
+        }
+    }
+}
+
+
+      

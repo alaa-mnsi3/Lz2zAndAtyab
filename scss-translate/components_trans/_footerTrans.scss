@@ -1,0 +1,117 @@
+.footer
+{
+    text-align: left;
+    &-1
+    {
+        @media (min-width: 768px) and (max-width:991px)
+        {
+            text-align: center;
+        }
+    }
+    .footer-join
+    {
+        .footor-join-call
+        {
+            & > div:first-of-type
+            {
+                text-align: left;
+            }
+            & > div:last-of-type
+            {
+                text-align: left;
+            }
+            & > div:last-of-type
+            {
+                text-align: left;
+                margin-right: 1.5rem;
+                margin-left: 17px;
+                @include media('phone')
+                {
+                    margin-right: 0.5rem;
+                    margin-left: 1.5rem;
+                }
+            }
+        }
+        // @media (min-width: 768px) and (max-width:991px)
+        // {
+        //     margin-right: 9.7%;
+        //     margin-left: 0px !important;
+        // }
+        @media (min-width: 768px)
+        {
+            margin-right: 8%;
+            margin-left: 0px;
+        }
+
+    }
+    .footer-before-footer 
+    {
+        span
+        {
+            margin-left: 1rem;
+            margin-right: 0;
+            &:last-of-type
+            {
+                @include media("tab-land")
+                {
+                    margin-left: 0;
+                }
+                @include media("phone")
+                {
+                    margin-left: 0;
+                }
+            }
+        }
+        .socail
+        {
+            margin-left: 1rem;
+            margin-right: 0px;
+            &>img:hover
+            {
+                transform: scale(.8);
+            }
+        }
+    }
+}
+
+
+.fast-arrive-sec
+{
+    margin-right: 8.3%;
+    margin-left: 0;
+    @media (max-width: 990px)
+    {
+       margin-right: 0;
+    }
+    .fast-arrive-h5
+    {
+        @media (min-width:766px) and (max-width: 990px)
+        {
+           text-align: center;
+        }
+    }
+}
+.fast-arrive
+{
+    ul:first-of-type
+    {
+        margin-left: 6rem;
+        margin-right: 0px;
+    }
+    @media (max-width: 990px)
+    {
+       text-align: center;
+    }
+}
+
+
+.footer-footer
+{
+    &-allrights
+    {
+        @media only screen and (max-width:350px) {
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.first-tab
+{
+    &.active
+    {
+        top: 0px;
+        right: 0px;
+
+    }
+}
+
+.first-header
+{
+    &-left-items
+    {
+        li.first-header-left-item
+        {
+            margin-right: 3rem;
+            margin-left: 0px;
+            a
+            {
+                margin-left: 12px;
+                margin-right: 0;
+            }
+            &:first-of-type
+            {
+                margin-right: 0px;
+                margin-left: 0rem;
+                a
+                {
+                    &:last-of-type
+                    {
+                        margin-right: 12px;
+                        margin-left: 0px;
+                    }
+                } 
+            }
+        }
+    }
+}
+
+//mob
+.first-header-left-items .first-header-left-item.translate
+{
+
+    @include media("tap-port")
+    {
+        margin-right: 0 !important;
+    }
+    @include media("phone")
+    {
+        margin-right: 0 !important;
+    }
+}

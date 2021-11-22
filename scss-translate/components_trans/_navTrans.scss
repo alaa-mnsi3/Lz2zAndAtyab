@@ -1,0 +1,67 @@
+
+nav
+{
+    ul
+    {
+        li:first-of-type
+        {
+            margin-left: 0rem;
+            margin-right: 0rem;
+            @include media("tab-land")
+            {
+                margin-right: 0;
+            }
+            @include media("tab-port")
+            {
+                margin-right: 0 !important;
+            }
+        }
+        li:nth-of-type(6)
+        {
+            margin-right: 0rem;
+            margin-left: 2rem;
+            
+            @include media("tab-land")
+            {
+                margin-left: 0;
+            }
+            @include media("tab-port")
+            {
+                margin-left: 0 !important;
+                margin-bottom: 0;
+            }
+            @include media("phone")
+            {
+                margin-left: 0 !important;
+                margin-bottom: 0;
+            }
+        }
+        li:last-of-type i:first-of-type
+        {
+            margin-left: .5rem;
+            margin-right: 0px;
+        }
+        
+        li:last-of-type i:last-of-type
+        {
+            margin-right: .5rem;
+            margin-left: 0px;
+        }
+    }
+}
+
+.menu-information-toggle
+{
+    i
+    {
+        margin-left: .8125rem;
+        margin-right: 0px;
+    }
+}
+
+.menu-information
+{
+ 
+    padding-right: 1rem !important;
+    padding-left: 1.2rem !important;
+}

@@ -1,0 +1,72 @@
+
+// MEDIA QUERY MANAGER
+/*
+0 - 600px:           Phone
+600px - 900px:       Tablet portrait        
+900px - 1200px:      Tablet landscape
+[1200px - 1800px]:   is where our normal style apply >>>>>> (no media queries will be applied)
+1800px + :           Big desktop
+*/
+
+@mixin media($screen-type) {
+    @if($screen-type == "phone")
+    {      
+         @media only screen and (max-width: 37.5em){@content}; // < 600px
+    }
+    @if($screen-type == "tab-port")
+    {
+        @media only screen and (max-width: 900px){@content}; // < 900px
+    }
+    @if($screen-type == "tab-land")
+    {
+        @media (min-width : 901px) and (max-width: 75em){@content};   // < 1200px
+    }
+    @if($screen-type == "big-desktop")
+    {
+        @media (min-width: 75em){@content}; //  > 1800px
+    }
+}
+
+//"--------- حجم ولون الخط ف اولheader--------
+@mixin font-first-header{
+    color: var(--secondary-color);
+    font-size: .8rem;
+}
+
+
+@mixin font-third-header{
+    color: var(--text-color-primary);
+    font-size: .8rem;
+    font-weight: var(--font-bold);
+}
+
+@mixin transtion 
+{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;    
+}
+
+@mixin boxshadow
+{
+    box-shadow: 1px 1px 3px var(--text-secondary-color-dark) ;
+}
+
+// دى كود لل flex بس ق مسافه بين كل حاجه
+@mixin flex-center-space-around
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+
+@mixin flex-center 
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 100%;  
+} 
