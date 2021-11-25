@@ -75,6 +75,10 @@ for(let i=0 ; i < incrementProd.length ; i++)
     {
         let num =parseInt(quantityProduct[i].textContent);
         console.log(priceP);
+        if(num===0)
+        {
+            num=1;
+        }
         priceProduct[i].innerHTML=price * (num-1)  + ' LE';
         prevPrice[i].innerHTML=priceP * (num-1)  + ' LE';
         console.log(priceP);

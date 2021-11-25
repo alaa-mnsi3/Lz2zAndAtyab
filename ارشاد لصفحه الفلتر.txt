@@ -102,6 +102,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -200,6 +201,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -250,6 +252,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -300,6 +303,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -350,6 +354,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -400,6 +405,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -450,6 +456,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -500,6 +507,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -550,6 +558,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
@@ -600,6 +609,7 @@
                       <span class="decrement">-</span>
                     </div>
                   </div>
+                  <span class="discard-card-swiper">خصم %5</span>
               </div>
               </div>
               <!-- نهايته -->
